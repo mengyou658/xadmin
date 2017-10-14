@@ -38,6 +38,11 @@ class GlobalSetting(object):
         Host: "fa fa-laptop", IDC: "fa fa-cloud"
     }
     menu_style = 'default'  # 'accordion'
+    site_title = u'阿凡骑智能存车系统'
+    title = u'阿凡骑智能存车系统'
+    name = u'阿凡骑智能存车系统'
+    site_header = u'阿凡骑智能存车系统'
+    ndex_title = u'所有功能'
 
 
 class MaintainInline(object):

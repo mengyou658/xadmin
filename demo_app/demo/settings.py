@@ -21,6 +21,9 @@ ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
 
+XADMIN_TITLE="阿凡骑社区管理系统"
+XADMIN_FOOTER_TITLE='Copyright &copy; 2017 www.anfunqi.com<br>Developed by <a href="http://www.anfunqi.com" target="_blank">www.anfunqi.com</a> '
+
 MANAGERS = ADMINS
 
 DATABASES = {
@@ -45,7 +48,7 @@ TIME_ZONE = 'America/Chicago'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
 LANGUAGES = (
     ('en', _('English')),
